@@ -1,0 +1,214 @@
+ <section class="projects" id="projects">
+
+        <h2 class="title-p">My Projects</h2>>
+
+        <div class="projects-row">
+
+            <div class="projects-column">
+              
+                <div class="projects-box">
+
+                    <div class="projects-content">
+
+                        <div class="content">
+
+                            <a href="./assets/projects/Calculadora Trabalhista/index.html" target="blank" class="button">
+
+                                <div class="box"></div>
+                                <div class="box">L</div>
+                                <div class="box">E</div>
+                                <div class="box">T</div>
+                                <div class="box">S</div>
+                                <div class="box"></div>
+
+                            </a>
+
+                            <div class="projects-desc">
+
+                                <div>
+
+                                    <h3>LABOR CALCULATOR</h3>
+                                    <p>This is the site where he calculates the INSS and IRRF, based on his salary!</p>
+
+                                </div>
+
+                                <img src="./assets/img/trabalhista.png" alt="img-p">
+
+                            </div>
+
+                        </div>
+                        
+                    </div>
+
+                    <div class="projects-content">
+
+                        <div class="content">
+
+                            <a href="./assets/projects/Conversor de Moeda/index.html" target="blank" class="button">
+
+                                <div class="box"></div>
+                                <div class="box">L</div>
+                                <div class="box">E</div>
+                                <div class="box">T</div>
+                                <div class="box">S</div>
+                                <div class="box"></div>
+
+                            </a>
+
+                            <div class="projects-desc">
+
+                                <div>
+
+                                    <h3>CURRENCY CONVERTER</h3>
+                                    <p>This is a project that converts the real into the dollarr and vice versa!</p>
+
+                                </div>
+
+                                <img src="./assets/img/conversor.png" alt="img-p">
+                                
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="projects-content">
+
+                        <div class="content">
+
+                            <a href="./assets/projects/Hortifrut/front/form.html" target="blank" class="button">
+
+                                <div class="box"></div>
+                                <div class="box">L</div>
+                                <div class="box">E</div>
+                                <div class="box">T</div>
+                                <div class="box">S</div>
+                                <div class="box"></div>
+
+                            </a>
+
+                            <div class="projects-desc">
+
+                                <div>
+
+                                    <h3>HORTIFRUT</h3>
+                                    <p>THIS PROJECT WAS DESIGNED FOR USE BY SMALL ENTREPRENEURS, AIMING TO ASSIST THEM IN THEIR SALES!</p>
+
+                                </div>
+
+                                <img src="./assets/img/hortifrut (2).jpeg" alt="img-p">
+                                
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="projects-column">
+
+                <div class="projects-box">
+
+                    <div class="projects-content">
+
+                        <div class="content">
+
+                            <a href="./assets/projects/Loja-Jóias/app/index.html" target="blank" class="button">
+
+                                <div class="box"></div>
+                                <div class="box">L</div>
+                                <div class="box">E</div>
+                                <div class="box">T</div>
+                                <div class="box">S</div>
+                                <div class="box"></div>
+
+                            </a>
+
+                            <div class="projects-desc">
+
+                                <div>
+
+                                    <h3>JEWELRY STORE</h3>
+                                    <p>This is a jewelry sales website with features for the owner and employees!</p>
+
+                                </div>
+
+                                <img src="./assets/img/joias.png" alt="img-p">
+                                
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="projects-content">
+
+                        <div class="content">
+
+                            <a href="./assets/projects/PREVISÃO-CEP/index.html" target="blank" class="button">
+
+                                <div class="box"></div>
+                                <div class="box">L</div>
+                                <div class="box">E</div>
+                                <div class="box">T</div>
+                                <div class="box">S</div>
+                                <div class="box"></div>
+
+                            </a>
+
+                            <div class="projects-desc">
+
+                                <div>
+
+                                    <h3>CLIMATE & ZIP Code</h3>
+                                    <p>PROJECT THAT GIVES YOU THE INFORMATION OF THE ADDRESS AND THE CLIMATE OF THAT ADDRESS BY ZIP CODE!</p>
+
+                                </div>
+
+                                <img src="./assets/img/cep-clima.jpeg" alt="img-p">
+                                
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="projects-content">
+
+                        <div class="content">
+
+                            <a href="./assets/projects/Relógio Digital/index.html" target="blank" class="button">
+
+                                <div class="box"></div>
+                                <div class="box">L</div>
+                                <div class="box">E</div>
+                                <div class="box">T</div>
+                                <div class="box">S</div>
+                                <div class="box"></div>
+
+                            </a>
+
+                            <div class="projects-desc">
+
+                                <div>
+
+                                    <h3>DIGITAL CLOCK</h3>
+                                    <p>This is a watch that you can choose if you want to make it light or dark themed!</p>
+
+                                </div>
+
+                                <img src="./assets/img/relogio.png" alt="img-p">
+                                
+                            </div>
+                        </div>
+                    </div>
+                
+                    <span class="animate scroll" style="--i:6;"></span>
+                </div>
+            </div>
+        </div>
+
+    </section>
