@@ -26,7 +26,7 @@ export default function App() {
 
         <Stack.Screen
         
-        name="IMC"
+        name="telaIMC"
         component={ScreenIMC} 
         options={{title:'Calcule seu IMC'}}
          

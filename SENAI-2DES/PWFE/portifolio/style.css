@@ -297,19 +297,19 @@ li a:hover {
     margin-left: 70vh;
     margin-bottom: 15px;
     letter-spacing: 5px;
-    font-size: 3rem;
-    font-family: "Courier New";
-    text-align: center;
-    text-shadow: 10px 10px 10px #e9019a;
+    color: #f5f5f5;
+    font-size: 4vh;
     transition: all 0.5s;
     text-transform: uppercase;
-    -webkit-text-stroke: 4px #fff;
+    font-weight: bold;
+    text-shadow: 5px 5px 5px #eb1aa5;
 }
 
 .title1:hover {
     color: transparent;
     font-variation-settings: "wght" 900, "ital" 1;
-    text-shadow: 10px 10px 10px #eb1aa5;
+    text-shadow: 10px 10px 10px #cf568fc9;
+    color:#ffff;
 }
 
 .about-text {
@@ -420,21 +420,19 @@ li a:hover {
     text-align: left;
     margin-left: 0vh;
     letter-spacing: 5px;
-    color: #e9019a;
-    font-size: 2.8rem;
-    font-family: "Courier New";
-    text-align: center;
-    text-shadow: 10px 10px 10px #ffffff;
+    color: #f5f5f5;
+    font-size: 4vh;
     transition: all 0.5s;
     text-transform: uppercase;
-    -webkit-text-stroke: 2px #fff;
+    font-weight: bold;
+    text-shadow: 5px 5px 5px #eb1aa5;
     margin-top: 12vh;
 }
 
 .title-p:hover {
-    color: transparent;
     font-variation-settings: "wght" 900, "ital" 1;
-    text-shadow: 10px 10px 10px #eb1aa5;
+    text-shadow: 10px 10px 10px #cf568fc9;
+    color:#ffff;
 }
 
 .projects-column .title{
@@ -446,7 +444,7 @@ li a:hover {
 
 .projects-column .projects-box{
     position: relative;
-    border-left: .2rem solid #eb1aa5;
+    border-left: .2rem solid #cf568fc9;
 }
 
 .projects-box .projects-content{
@@ -468,7 +466,7 @@ li a:hover {
 .projects-content .content{
     position: relative;
     padding: 1.5rem;
-    border: .2rem solid#eb1aa5;
+    border: .2rem solid #eb1aa5;
     border-radius: .6rem;
     margin-bottom: 1rem;
     overflow: hidden;
@@ -483,7 +481,7 @@ li a:hover {
     left: 0;
     width: 0;
     height: 100%;
-    background: #eb1aa5;
+    background: #eb4fb733;
     z-index: -1;
     transition: .5s;
 }
@@ -579,8 +577,7 @@ li a:hover {
     -webkit-text-stroke: 1px #ffffff;
 }
 
-
-.container-skills {
+.cont2{
     display: flex;
     margin-left: 15vh;
     width: 100%;
@@ -591,14 +588,39 @@ li a:hover {
     letter-spacing: 3px;
 }
 
-
 .cont-skill {
     width: 70vh;
     height: 35vh;
     border: 0.5vh solid #ffffff;
     padding: 20px;
     border-radius: 10px;
-    margin-top: 32vh;
+    margin-top: 10vh;
+    transition: all 0.5s;
+    text-transform: uppercase;
+}
+
+.cont-skill:hover{
+background: #eb4fb765;
+z-index: -1;
+transition: .1s;
+}
+
+
+.title-skil{
+    text-align: center;
+    padding-top: 10vh;
+    color: #f5f5f5;
+    font-size: 4vh;
+    transition: all 0.5s;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 5px 5px 5px #eb1aa5;
+}
+
+.title-skil:hover {
+    font-variation-settings: "wght" 900, "ital" 1;
+    text-shadow: 10px 10px 10px #cf568fc9;
+    color:#ffff;
 }
 
 .title-skills {
@@ -632,7 +654,7 @@ li a:hover {
 }
 .skill-progress {
     height: 100%;
-    background-color: #e9019a;
+    background-color: #9e1366e8;
     text-align: right;
     line-height: 3.3vh;
     color: white;
@@ -644,9 +666,17 @@ li a:hover {
     border: 0.5vh solid #ffffff;
     border-radius: 10px;
     padding: 20px;
-    margin-top: 32vh;
+    margin-top: 10vh;
     margin-left: 10vh;
+    transition: all 0.5s;
+    text-transform: uppercase;
 }
+
+.container-border:hover{
+    background: #eb4fb765;
+    z-index: -1;
+    transition: .1s;
+    }
 
 .title-border {
     text-align: center;
@@ -665,35 +695,45 @@ li a:hover {
     align-items: center;
 }
 
+
+
 .card {
     display: none;
     width: 35vh;
     height: 15vh;
-    border: 2px solid #ffffff;
     border-radius: 10px;
-    border: 0.5vh solid #f2f2f2;
+    border: 0.5vh solid #ffffff;
     padding: 20px;
     margin-bottom: 20px;
     text-align: center;
-    background-color: #eb1aa5d8;
+    background-color: #9e1366e8;
     margin-top: 1vh;
 }
 
 .card.current {
     display: block;
-    color: #ffffff ;
+    color: #f5f5f5;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 5px 5px 5px #eb1aa5;
 }
 
 .card.current h2{
     font-size: 1.5rem;
-    color: #ffffff ;
+    color: #f5f5f5;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 5px 5px 5px #eb1aa5;
 
 }
 
 .card.current a{
     font-size: 1.5rem;
     text-decoration: none;
-    color: #ffffff ;
+    color: #f5f5f5;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 5px 5px 5px #eb1aa5;
 
 }
 
@@ -704,7 +744,7 @@ li a:hover {
 .prev-button,
 .next-button {
     font-size: 1rem;
-    background-color: #eb1aa5d8;
+    background-color: #cf568fc9;
     color: white;
     border: none;
     border-radius: 5px;
