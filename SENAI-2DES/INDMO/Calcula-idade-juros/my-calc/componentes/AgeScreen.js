@@ -8,7 +8,6 @@ export default function AgeScreen() {
   const [idade, setIdade] = useState(null);
 
   const calcularIdade = () => {
-
     const dataNascimentoArray = dataNascimento.split('/').map(Number);
     const dataAtualArray = dataAtual.split('/').map(Number); 
 
@@ -28,70 +27,65 @@ export default function AgeScreen() {
     const idadeCalculada = Math.floor(idadeEmMilissegundos / milissegundosEmAno);
 
     setIdade(idadeCalculada);
-
   };
 
   return (
-
     <View style={styles.container}>
-        
+      <Text style={styles.infoText}>Informe os dados abaixo:</Text>
       <TextInput
-
         style={styles.input}
         placeholder="Data de Nascimento (DD/MM/AAAA)"
         value={dataNascimento}
         onChangeText={text => setDataNascimento(text)}
-
       />
-
       <TextInput
-
         style={styles.input}
         placeholder="Data Atual (DD/MM/AAAA)"
         value={dataAtual}
         onChangeText={text => setDataAtual(text)}
-
       />
-
       <TouchableOpacity style={styles.button} onPress={calcularIdade}>
-
         <Text style={styles.buttonText}>Calcular Idade</Text>
-
       </TouchableOpacity>
-
       {idade !== null && (
-
         <Text style={styles.ageText}>Sua idade é: {idade} anos</Text>
-
       )}
-
     </View>
-
   );
-
 }
 
 const styles = StyleSheet.create({
-
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#ddcbff',
     alignItems: 'center',
     justifyContent: 'center',
   },
+  infoText: {
+    fontSize: 24,
+    marginBottom: 20,
+    textAlign: 'center',
+    fontWeight: 'bold',
+    color: '#50599e',
+  },
   input: {
     width: '20%', 
-    height: 40,
-    borderColor: 'gray',
+    height: 50,
+    borderColor: '#50599e',
+    borderRadius: 10,
     borderWidth: 1,
     marginBottom: 20,
     paddingHorizontal: 10,
   },
   button: {
-    backgroundColor: '#007bff',
-    paddingVertical: 15,
-    paddingHorizontal: 30,
+    backgroundColor: '#50599e',
+    paddingVertical: 10,
+    paddingHorizontal: 20,
     borderRadius: 5,
+    borderWidth: 2,
+    borderColor: '#1f294f',
+    marginTop: 10,
+    marginHorizontal: 5,
   },
   buttonText: {
     color: '#fff',
@@ -101,5 +95,4 @@ const styles = StyleSheet.create({
     marginTop: 20,
     fontSize: 20,
   },
-
 });
