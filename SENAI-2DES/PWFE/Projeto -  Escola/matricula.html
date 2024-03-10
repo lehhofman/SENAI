@@ -73,7 +73,7 @@
 
                         <form>
 
-                            <div class="mb-3">
+                            <div class="mb-1">
 
                                 <label for="nome" class="form-label">Nome</label>
                                 <input type="text" class="form-control" id="nome" placeholder="Seu nome">
@@ -113,53 +113,89 @@
         </div>
 
     </div>
-    
+
     <div class="principal">
 
         <h1>DOÇURA ENCANTADA</h1>
         <h3>Aqui você encontra diversos cursos sobre o mundo dos doces!</h3>
 
     </div>
-    
-    <div class="container feature" id="info">
 
-        <div class="col-md-13">
+    <div class="container">
+       
+        <div class="custom-form">
 
-            <img src="OIP.jpeg" class="img1" alt="Imagem">
+            <h2>Dados Matrícula</h2>
 
-        </div>
+            <form id="myForm" action="index.html" method="post">
 
-        <div class="row">
+                <div class="mb-3">
 
-            <div class="col-md-30">
-                
-                <p>Bem-vindo à Confeitaria Doçura Encantada, onde os mais deliciosos segredos da confeitaria ganham vida! Somos mais do que uma simples confeitaria; somos uma comunidade apaixonada por doces, dedicada a compartilhar nosso amor pela arte da culinária doce.
-                    Em nossa jornada açucarada, temos encantado paladares há mais de uma década, oferecendo uma ampla variedade de sobremesas irresistíveis, desde bolos extravagantes até cupcakes delicados, passando por tortas exuberantes e biscoitos feitos com carinho.
-                    Agora, estamos entusiasmados em compartilhar nosso conhecimento e paixão com você através de nossos cursos de confeitaria. Nossas aulas são projetadas para todos os entusiastas da cozinha, desde iniciantes até especialistas, que desejam aprimorar suas habilidades e dominar os segredos por trás de nossas criações.
-                    Em nossos cursos, você terá a oportunidade única de aprender com nossos talentosos mestres confeiteiros, que compartilharão seus truques e técnicas especializadas para criar sobremesas que encantam todos os sentidos. Desde o básico até as criações mais elaboradas, nossas aulas são uma jornada de descoberta culinária que promete despertar sua criatividade e inspiração.
-                    Então, junte-se a nós na Confeitaria Doçura Encantada e embarque em uma aventura doce que o levará a novos patamares de sabor e habilidade. Seja bem-vindo à nossa família açucarada, onde os sonhos se tornam sobremesas e cada mordida é uma experiência mágica!
-                </p>
+                    <label for="nome" class="form-label">Nome:</label>
+                    <input type="text" class="form-control" id="nome" placeholder="Seu nome">
 
-                <a href="produto.html" target="_blank" class="button-link">Cursos</a>
+                </div>
 
-            </div>
+                <div class="mb-3">
+
+                    <label for="endereco" class="form-label">Endereço:</label>
+                    <input type="text" class="form-control" id="endereco" placeholder="Seu endereço">
+
+                </div>
+
+                <div class="mb-3">
+
+                    <label for="telefone" class="form-label">Telefone:</label>
+                    <input type="text" class="form-control" id="telefone" placeholder="Seu telefone">
+
+                </div>
+
+                <div class="mb-3">
+
+                    <label for="email" class="form-label">Email:</label>
+                    <input type="email" class="form-control" id="email" placeholder="Seu email">
+
+                </div>
+
+                <div class="mb-3">
+
+                    <label for="curso" class="form-label">Curso:</label>
+
+                    <select class="form-control" id="curso">
+
+                        <option value="">Selecione o curso</option>
+                        <option value="1">Cupcakes e Coberturas</option>
+                        <option value="2">Ecláirs Decorados</option>
+                        <option value="3">5 Doces Finos</option>
+                        <option value="4">Rocambole Decorado</option>
+                        <option value="5">Tortinha Chocolatuda</option>
+                        <option value="6">Torta Gelada</option>
+
+                    </select>
+
+                </div>
+
+                <button type="submit" class="btn btn-primary">Enviar</button>
+
+            </form>
 
         </div>
 
     </div>
 
-    <div class="rodape">
+<div class="rodape">
 
-        <address class="text-muted">
+    <address class="text-muted">
             
-            <strong>© 2024 Confeitaria Doçura Encantada. Todos os direitos reservados.</strong>
+        <strong>© 2024 Confeitaria Doçura Encantada. Todos os direitos reservados.</strong>
         
-        </address>
+    </address>
 
-    </div>
+</div>
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.6/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 
 </body>
 

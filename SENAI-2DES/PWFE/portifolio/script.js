@@ -37,3 +37,13 @@ document.addEventListener('DOMContentLoaded', function () {
         showCard(currentCardIndex);
     });
 });
+
+document.addEventListener("DOMContentLoaded", function(event) { 
+    var contactSection = document.getElementById("contact");
+    var contactContainer = document.querySelector(".container-contact");
+
+    // Adiciona classe 'show' após um pequeno atraso
+    setTimeout(function(){
+        contactContainer.classList.add("show");
+    }, 500);
+});
