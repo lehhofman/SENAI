@@ -10,6 +10,8 @@
 			- E-mail
 			- Senha (criptografada)
 
+			- { 5 Usuários }
+
 
 	     CAMPOS TAREFAS:
 
@@ -18,6 +20,8 @@
 			- Data de Vencimento
 			- Status
 			- ID do Usuário (chave estrangeira referenciando a tabela de Usuários para identificar a quem a tarefa está atribuída)
+
+			- { 10 Tarefas cada Usuário}
 
 
 	      DESAFIO:
