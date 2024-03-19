@@ -197,7 +197,7 @@ li a:hover {
 }
 
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     li a {
         margin-left: 1vh;
         display: flex;
@@ -274,7 +274,7 @@ li a:hover {
         width: 6vh;
     }
 
-}
+} */
 
 
 .about-container {
@@ -323,7 +323,6 @@ li a:hover {
 .about-text p{
     margin-left: 5vh;
 }
-
 .about-img img {
     margin-left: 40vh;
     width: 40vh;
